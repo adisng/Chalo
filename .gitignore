@@ -17,4 +17,5 @@ out
 *.xlsx
 .tmp-assets/
 .next/
+*.tsbuildinfo
 .DS_Store
