@@ -7,6 +7,7 @@ import './styles/logs.css'
 import './styles/schedule.css'
 import './styles/brand.css'
 import './styles/modal.css'
+import './styles/ios.css'
 import SplashGate from '../components/SplashGate'
 
 export const metadata: Metadata = {
@@ -28,15 +29,17 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
+    shortcut: '/brand/chalo-icon.svg',
     apple: '/apple-icon.png',
   },
+  appleWebApp: { capable: true, statusBarStyle: 'black-translucent', title: 'Chalo' },
 }
 
 export const viewport: Viewport = {
   colorScheme: 'light dark',
   themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
+    { media: '(prefers-color-scheme: light)', color: '#13273F' },
+    { media: '(prefers-color-scheme: dark)', color: '#13273F' },
   ],
 }
 

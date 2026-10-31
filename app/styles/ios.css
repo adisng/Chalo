@@ -1,0 +1,5 @@
+html,body{min-height:100%;background:var(--bg)}
+body{padding-top:env(safe-area-inset-top)}
+.app-shell{padding-bottom:calc(104px + env(safe-area-inset-bottom))}
+.bottom-nav{padding-bottom:calc(8px + env(safe-area-inset-bottom))}
+@media (display-mode:standalone){.topbar{padding-top:calc(20px + env(safe-area-inset-top))}.modal{padding-bottom:calc(24px + env(safe-area-inset-bottom))}}
