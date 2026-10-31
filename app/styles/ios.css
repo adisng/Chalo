@@ -1,4 +1,7 @@
 html,body{min-height:100%;background:var(--bg)}
+html{scroll-behavior:smooth;scrollbar-width:none}
+html::-webkit-scrollbar,body::-webkit-scrollbar,.modal::-webkit-scrollbar,.fix-list::-webkit-scrollbar{display:none;width:0;height:0}
+body{scrollbar-width:none}
 body{padding-top:env(safe-area-inset-top)}
 .app-shell{padding-bottom:calc(104px + env(safe-area-inset-bottom))}
 .bottom-nav{padding-bottom:calc(8px + env(safe-area-inset-bottom))}
