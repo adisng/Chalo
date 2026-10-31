@@ -6,6 +6,7 @@ import './styles/home.css'
 import './styles/logs.css'
 import './styles/schedule.css'
 import './styles/brand.css'
+import './styles/modal.css'
 import SplashGate from '../components/SplashGate'
 
 export const metadata: Metadata = {

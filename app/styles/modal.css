@@ -1,0 +1,2 @@
+.modal{max-height:90vh;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+.modal .fix-list{max-height:48vh;overflow-y:auto;padding-right:8px}
