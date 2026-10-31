@@ -9,6 +9,7 @@ import './styles/brand.css'
 import './styles/modal.css'
 import './styles/ios.css'
 import SplashGate from '../components/SplashGate'
+import PwaUpdate from '../components/PwaUpdate'
 
 export const metadata: Metadata = {
   title: 'Chalo · Field Operations',
@@ -60,6 +61,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <SplashGate />
+        <PwaUpdate />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

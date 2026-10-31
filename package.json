@@ -8,6 +8,7 @@
     "build:seed": "node scripts/build-seed.js",
     "prebuild": "node scripts/build-seed.js",
     "build": "next build",
+    "postbuild": "node scripts/stamp-sw.js",
     "start": "next start",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
