@@ -5,7 +5,12 @@ import * as XLSX from 'xlsx'
 const root = process.cwd()
 const source = process.env.CHALO_WORKBOOK || path.join(root, 'tests/fixtures/Aditya_Hostel_Plan.xlsx')
 const output = path.join(root, 'lib/seed.json')
-if (!fs.existsSync(source)) throw new Error(`Workbook not found: ${source}`)
+// CI/deploy builds intentionally do not contain the private workbook. In that
+// case keep the checked-in seed generated locally from the read-only fixture.
+if (!fs.existsSync(source)) {
+  if (fs.existsSync(output)) process.exit(0)
+  throw new Error(`Workbook not found and no seed exists: ${source}`)
+}
 
 const workbook = XLSX.read(fs.readFileSync(source), { type: 'buffer', cellDates: true })
 const sheet = workbook.Sheets[workbook.SheetNames.includes('Aditya') ? 'Aditya' : workbook.SheetNames[0]]
