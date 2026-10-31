@@ -10,6 +10,8 @@ body{padding-top:env(safe-area-inset-top)}
 .app-shell[data-pull-distance="0"] .pull-refresh{height:0}
 .app-shell:not([data-pull-distance="0"]) .pull-refresh{height:34px;opacity:1}
 .pull-refresh.is-refreshing{height:34px;opacity:1;transform:none}
+.pull-refresh.is-refreshing::before{content:'';width:14px;height:14px;border:2px solid color-mix(in srgb,var(--text-muted) 30%,transparent);border-top-color:var(--accent);border-radius:50%;animation:pull-spin .7s linear infinite;margin-right:7px}
+@keyframes pull-spin{to{transform:rotate(360deg)}}
 .update-toast{position:fixed;z-index:30;left:16px;right:16px;bottom:calc(92px + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;background:var(--text);color:var(--bg);border-radius:14px;box-shadow:var(--shadow-card);font-weight:800}
 .update-toast button{background:var(--accent);color:#fff;border-radius:10px;padding:8px 12px;font-weight:800}
 .bottom-nav{padding-bottom:calc(8px + env(safe-area-inset-bottom))}
