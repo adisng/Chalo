@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      },
+      {
         url: '/icon-light-32x32.png',
         media: '(prefers-color-scheme: light)',
       },
@@ -29,7 +33,7 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
-    shortcut: '/brand/chalo-icon.svg',
+    shortcut: '/favicon.svg',
     apple: '/apple-icon.png',
   },
   appleWebApp: { capable: true, statusBarStyle: 'black-translucent', title: 'Chalo' },
@@ -50,6 +54,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" manifest="/manifest.webmanifest">
+      <head>
+        <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-icon.png?v=2" />
+      </head>
       <body className="antialiased">
         <SplashGate />
         {children}
