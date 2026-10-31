@@ -5,5 +5,10 @@ html{scroll-behavior:smooth;scrollbar-width:none}
 body{scrollbar-width:none}
 body{padding-top:env(safe-area-inset-top)}
 .app-shell{padding-bottom:calc(104px + env(safe-area-inset-bottom))}
+.app-shell{overscroll-behavior-y:contain}
+.pull-refresh{height:0;overflow:hidden;display:grid;place-items:center;color:var(--text-muted);font-size:12px;font-weight:800;transform:translateY(calc(var(--pull-distance) * -1));opacity:0;transition:height .18s ease,opacity .18s ease,transform .18s ease}
+.app-shell[data-pull-distance="0"] .pull-refresh{height:0}
+.app-shell:not([data-pull-distance="0"]) .pull-refresh{height:34px;opacity:1}
+.pull-refresh.is-refreshing{height:34px;opacity:1;transform:none}
 .bottom-nav{padding-bottom:calc(8px + env(safe-area-inset-bottom))}
 @media (display-mode:standalone){.topbar{padding-top:calc(20px + env(safe-area-inset-top))}.modal{padding-bottom:calc(24px + env(safe-area-inset-bottom))}}
