@@ -8,6 +8,7 @@ import './styles/schedule.css'
 import './styles/brand.css'
 import './styles/modal.css'
 import './styles/ios.css'
+import './styles/workspace.css'
 import SplashGate from '../components/SplashGate'
 import PwaUpdate from '../components/PwaUpdate'
 
