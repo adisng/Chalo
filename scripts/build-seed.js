@@ -27,8 +27,15 @@ const weekday = { sunday: 0, monday: 1, tuesday: 2, wednesday: 3, thursday: 4, f
 const normalDay = value => String(value || '').trim().toLowerCase().replace('wedenday', 'wednesday')
 const dateParts = value => {
   if (!value) return null
+  if (typeof value === 'number') {
+    const parsed = XLSX.SSF.parse_date_code(value)
+    return parsed ? { day: parsed.d, month: parsed.m, year: parsed.y } : null
+  }
   if (value instanceof Date) return { day: value.getDate(), month: value.getMonth() + 1, year: value.getFullYear() }
-  const [day, month, year] = String(value).trim().replaceAll('/', '.').split('.')
+  const text = String(value).trim()
+  const iso = text.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/)
+  if (iso) return { year: Number(iso[1]), month: Number(iso[2]), day: Number(iso[3]) }
+  const [day, month, year] = text.replaceAll('/', '.').split('.')
   if (!day || !month || !year) return null
   return { day: Number(day), month: Number(month), year: Number(year.length === 2 ? `20${year}` : year) }
 }
@@ -43,12 +50,13 @@ for (const row of rows) {
   const code = known[name] || sourceCode
   if (code !== sourceCode) fixes.push({ sourceRow, field: 'hostel code', original: sourceCode, proposed: code, reason: 'Hostel name is the source of truth.' })
   const dayValue = row[4] ? normalDay(row[4]) : previousDay
-  const rawDate = row[5] || previousDate
+  const sourceDate = row[5]
+  const rawDate = sourceDate || previousDate
   const parts = dateParts(rawDate)
   if (!parts) { flags.push({ sourceRow, field: 'date', original: rawDate, proposed: null, reason: 'Missing date.' }); continue }
   const match = candidates(parts).find(candidate => dayValue && weekday[dayValue] !== undefined && new Date(`${candidate.year}-${String(candidate.month).padStart(2, '0')}-${String(candidate.day).padStart(2, '0')}T12:00:00`).getDay() === weekday[dayValue])
   const date = match ? localDate(match) : localDate(parts)
-  if (date !== localDate(parts)) fixes.push({ sourceRow, field: 'date', original: localDate(parts), proposed: date, reason: `Year normalized using stated weekday ${dayValue}.` })
+  if (date !== localDate(parts)) fixes.push({ sourceRow, field: 'date', original: String(sourceDate || localDate(parts)), proposed: date, reason: `Year normalized using stated weekday ${dayValue}.` })
   previousDate = date; previousDay = dayValue
   let rawSessions = String(row[6] || '')
   const normalizedSessions = rawSessions.replace(/^,/, '')

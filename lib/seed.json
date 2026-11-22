@@ -1,8 +1,1905 @@
 {
   "schemaVersion": 1,
   "counselorId": "counselor-default",
-  "hostels": [],
-  "visits": [],
-  "fixes": [],
-  "flags": []
+  "hostels": [
+    {
+      "id": "counselor-default-H2",
+      "counselorId": "counselor-default",
+      "code": "H2",
+      "name": "PRE-MATRIC SC BOYS HOSTEL DHARSIWA",
+      "type": "SC",
+      "location": "PRE-MATRIC SC BOYS HOSTEL DHARSIWA",
+      "totalSessions": 64
+    },
+    {
+      "id": "counselor-default-H1",
+      "counselorId": "counselor-default",
+      "code": "H1",
+      "name": "PRE-MATRIC ST BOYS HOSTEL PENSIONBADA",
+      "type": "ST",
+      "location": "PRE-MATRIC ST BOYS HOSTEL PENSIONBADA",
+      "totalSessions": 64
+    },
+    {
+      "id": "counselor-default-H3",
+      "counselorId": "counselor-default",
+      "code": "H3",
+      "name": "PRE-MATRIC SC BOYS HOSTEL KOLAR ABHANPUR",
+      "type": "SC",
+      "location": "PRE-MATRIC SC BOYS HOSTEL KOLAR ABHANPUR",
+      "totalSessions": 64
+    },
+    {
+      "id": "counselor-default-H4",
+      "counselorId": "counselor-default",
+      "code": "H4",
+      "name": "PRE-MATRIC SC BOYS HOSTEL SIVANI ABHANPUR",
+      "type": "SC",
+      "location": "PRE-MATRIC SC BOYS HOSTEL SIVANI ABHANPUR",
+      "totalSessions": 64
+    },
+    {
+      "id": "counselor-default-H5",
+      "counselorId": "counselor-default",
+      "code": "H5",
+      "name": "PRE-MATRIC ST BOYS HOSTEL PARAGOA ABHANPUR",
+      "type": "ST",
+      "location": "PRE-MATRIC ST BOYS HOSTEL PARAGOA ABHANPUR",
+      "totalSessions": 64
+    }
+  ],
+  "visits": [
+    {
+      "id": "counselor-default-visit-1",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-10-27",
+      "plannedSessions": [
+        3,
+        4
+      ],
+      "outcome": "planned",
+      "sourceRow": 1
+    },
+    {
+      "id": "counselor-default-visit-2",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-10-28",
+      "plannedSessions": [
+        3,
+        4
+      ],
+      "outcome": "planned",
+      "sourceRow": 2
+    },
+    {
+      "id": "counselor-default-visit-3",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-10-29",
+      "plannedSessions": [
+        5,
+        6
+      ],
+      "outcome": "planned",
+      "sourceRow": 3
+    },
+    {
+      "id": "counselor-default-visit-4",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-10-30",
+      "plannedSessions": [
+        1,
+        2
+      ],
+      "outcome": "planned",
+      "sourceRow": 4
+    },
+    {
+      "id": "counselor-default-visit-5",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-10-31",
+      "plannedSessions": [
+        1,
+        2
+      ],
+      "outcome": "planned",
+      "sourceRow": 5
+    },
+    {
+      "id": "counselor-default-visit-6",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-10-31",
+      "plannedSessions": [
+        1,
+        2
+      ],
+      "outcome": "planned",
+      "sourceRow": 6
+    },
+    {
+      "id": "counselor-default-visit-7",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-01",
+      "plannedSessions": [
+        3,
+        4
+      ],
+      "outcome": "planned",
+      "sourceRow": 7
+    },
+    {
+      "id": "counselor-default-visit-8",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-01",
+      "plannedSessions": [
+        3,
+        4
+      ],
+      "outcome": "planned",
+      "sourceRow": 8
+    },
+    {
+      "id": "counselor-default-visit-9",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-11-01",
+      "plannedSessions": [
+        3,
+        4
+      ],
+      "outcome": "planned",
+      "sourceRow": 9
+    },
+    {
+      "id": "counselor-default-visit-10",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-02",
+      "plannedSessions": [
+        5,
+        6
+      ],
+      "outcome": "planned",
+      "sourceRow": 10
+    },
+    {
+      "id": "counselor-default-visit-11",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-03",
+      "plannedSessions": [
+        7,
+        8
+      ],
+      "outcome": "planned",
+      "sourceRow": 11
+    },
+    {
+      "id": "counselor-default-visit-12",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-04",
+      "plannedSessions": [
+        7,
+        8
+      ],
+      "outcome": "planned",
+      "sourceRow": 12
+    },
+    {
+      "id": "counselor-default-visit-13",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-12",
+      "plannedSessions": [
+        9,
+        10
+      ],
+      "outcome": "planned",
+      "sourceRow": 13
+    },
+    {
+      "id": "counselor-default-visit-14",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-13",
+      "plannedSessions": [
+        5,
+        6
+      ],
+      "outcome": "planned",
+      "sourceRow": 14
+    },
+    {
+      "id": "counselor-default-visit-15",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-14",
+      "plannedSessions": [
+        7,
+        8
+      ],
+      "outcome": "planned",
+      "sourceRow": 15
+    },
+    {
+      "id": "counselor-default-visit-16",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-14",
+      "plannedSessions": [
+        5,
+        6
+      ],
+      "outcome": "planned",
+      "sourceRow": 16
+    },
+    {
+      "id": "counselor-default-visit-17",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-15",
+      "plannedSessions": [
+        9,
+        10
+      ],
+      "outcome": "planned",
+      "sourceRow": 17
+    },
+    {
+      "id": "counselor-default-visit-18",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-15",
+      "plannedSessions": [
+        7,
+        8
+      ],
+      "outcome": "planned",
+      "sourceRow": 18
+    },
+    {
+      "id": "counselor-default-visit-19",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-11-15",
+      "plannedSessions": [
+        5,
+        6
+      ],
+      "outcome": "planned",
+      "sourceRow": 19
+    },
+    {
+      "id": "counselor-default-visit-20",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-16",
+      "plannedSessions": [
+        9,
+        10
+      ],
+      "outcome": "planned",
+      "sourceRow": 20
+    },
+    {
+      "id": "counselor-default-visit-21",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-17",
+      "plannedSessions": [
+        11,
+        12
+      ],
+      "outcome": "planned",
+      "sourceRow": 21
+    },
+    {
+      "id": "counselor-default-visit-22",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-18",
+      "plannedSessions": [
+        11,
+        12
+      ],
+      "outcome": "planned",
+      "sourceRow": 22
+    },
+    {
+      "id": "counselor-default-visit-23",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-19",
+      "plannedSessions": [
+        13,
+        14
+      ],
+      "outcome": "planned",
+      "sourceRow": 23
+    },
+    {
+      "id": "counselor-default-visit-24",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-20",
+      "plannedSessions": [
+        11,
+        12
+      ],
+      "outcome": "planned",
+      "sourceRow": 24
+    },
+    {
+      "id": "counselor-default-visit-25",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-21",
+      "plannedSessions": [
+        9,
+        10
+      ],
+      "outcome": "planned",
+      "sourceRow": 25
+    },
+    {
+      "id": "counselor-default-visit-26",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-11-21",
+      "plannedSessions": [
+        7,
+        8
+      ],
+      "outcome": "planned",
+      "sourceRow": 26
+    },
+    {
+      "id": "counselor-default-visit-27",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-22",
+      "plannedSessions": [
+        13,
+        14
+      ],
+      "outcome": "planned",
+      "sourceRow": 27
+    },
+    {
+      "id": "counselor-default-visit-28",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-22",
+      "plannedSessions": [
+        11,
+        12
+      ],
+      "outcome": "planned",
+      "sourceRow": 28
+    },
+    {
+      "id": "counselor-default-visit-29",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-11-22",
+      "plannedSessions": [
+        9,
+        10
+      ],
+      "outcome": "planned",
+      "sourceRow": 29
+    },
+    {
+      "id": "counselor-default-visit-30",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-23",
+      "plannedSessions": [
+        13,
+        14
+      ],
+      "outcome": "planned",
+      "sourceRow": 30
+    },
+    {
+      "id": "counselor-default-visit-31",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-24",
+      "plannedSessions": [
+        15,
+        16
+      ],
+      "outcome": "planned",
+      "sourceRow": 31
+    },
+    {
+      "id": "counselor-default-visit-32",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-24",
+      "plannedSessions": [
+        15,
+        16
+      ],
+      "outcome": "planned",
+      "sourceRow": 32
+    },
+    {
+      "id": "counselor-default-visit-33",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-24",
+      "plannedSessions": [
+        13,
+        14
+      ],
+      "outcome": "planned",
+      "sourceRow": 33
+    },
+    {
+      "id": "counselor-default-visit-34",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-25",
+      "plannedSessions": [
+        15,
+        16
+      ],
+      "outcome": "planned",
+      "sourceRow": 34
+    },
+    {
+      "id": "counselor-default-visit-35",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-11-26",
+      "plannedSessions": [
+        17,
+        18
+      ],
+      "outcome": "planned",
+      "sourceRow": 35
+    },
+    {
+      "id": "counselor-default-visit-36",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-27",
+      "plannedSessions": [
+        17,
+        18
+      ],
+      "outcome": "planned",
+      "sourceRow": 36
+    },
+    {
+      "id": "counselor-default-visit-37",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-28",
+      "plannedSessions": [
+        15,
+        16
+      ],
+      "outcome": "planned",
+      "sourceRow": 37
+    },
+    {
+      "id": "counselor-default-visit-38",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-11-28",
+      "plannedSessions": [
+        11,
+        12
+      ],
+      "outcome": "planned",
+      "sourceRow": 38
+    },
+    {
+      "id": "counselor-default-visit-39",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-11-29",
+      "plannedSessions": [
+        19,
+        20
+      ],
+      "outcome": "planned",
+      "sourceRow": 39
+    },
+    {
+      "id": "counselor-default-visit-40",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-11-29",
+      "plannedSessions": [
+        17,
+        18
+      ],
+      "outcome": "planned",
+      "sourceRow": 40
+    },
+    {
+      "id": "counselor-default-visit-41",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-11-29",
+      "plannedSessions": [
+        13,
+        14
+      ],
+      "outcome": "planned",
+      "sourceRow": 41
+    },
+    {
+      "id": "counselor-default-visit-42",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-11-30",
+      "plannedSessions": [
+        17,
+        18
+      ],
+      "outcome": "planned",
+      "sourceRow": 42
+    },
+    {
+      "id": "counselor-default-visit-43",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-01",
+      "plannedSessions": [
+        19,
+        20
+      ],
+      "outcome": "planned",
+      "sourceRow": 43
+    },
+    {
+      "id": "counselor-default-visit-44",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-02",
+      "plannedSessions": [
+        19,
+        20
+      ],
+      "outcome": "planned",
+      "sourceRow": 44
+    },
+    {
+      "id": "counselor-default-visit-45",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-03",
+      "plannedSessions": [
+        21,
+        22
+      ],
+      "outcome": "planned",
+      "sourceRow": 45
+    },
+    {
+      "id": "counselor-default-visit-46",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-12-04",
+      "plannedSessions": [
+        21,
+        22
+      ],
+      "outcome": "planned",
+      "sourceRow": 46
+    },
+    {
+      "id": "counselor-default-visit-47",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-12-05",
+      "plannedSessions": [
+        19,
+        20
+      ],
+      "outcome": "planned",
+      "sourceRow": 47
+    },
+    {
+      "id": "counselor-default-visit-48",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-12-05",
+      "plannedSessions": [
+        15,
+        16
+      ],
+      "outcome": "planned",
+      "sourceRow": 48
+    },
+    {
+      "id": "counselor-default-visit-49",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-12-06",
+      "plannedSessions": [
+        23,
+        24
+      ],
+      "outcome": "planned",
+      "sourceRow": 49
+    },
+    {
+      "id": "counselor-default-visit-50",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-12-06",
+      "plannedSessions": [
+        21,
+        22
+      ],
+      "outcome": "planned",
+      "sourceRow": 50
+    },
+    {
+      "id": "counselor-default-visit-51",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-12-06",
+      "plannedSessions": [
+        17,
+        18
+      ],
+      "outcome": "planned",
+      "sourceRow": 51
+    },
+    {
+      "id": "counselor-default-visit-52",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-07",
+      "plannedSessions": [
+        21,
+        22
+      ],
+      "outcome": "planned",
+      "sourceRow": 52
+    },
+    {
+      "id": "counselor-default-visit-53",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-08",
+      "plannedSessions": [
+        23,
+        24
+      ],
+      "outcome": "planned",
+      "sourceRow": 53
+    },
+    {
+      "id": "counselor-default-visit-54",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-09",
+      "plannedSessions": [
+        23,
+        24
+      ],
+      "outcome": "planned",
+      "sourceRow": 54
+    },
+    {
+      "id": "counselor-default-visit-55",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-10",
+      "plannedSessions": [
+        25,
+        26
+      ],
+      "outcome": "planned",
+      "sourceRow": 55
+    },
+    {
+      "id": "counselor-default-visit-56",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-12-11",
+      "plannedSessions": [
+        25,
+        26
+      ],
+      "outcome": "planned",
+      "sourceRow": 56
+    },
+    {
+      "id": "counselor-default-visit-57",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-12-12",
+      "plannedSessions": [
+        23,
+        24
+      ],
+      "outcome": "planned",
+      "sourceRow": 57
+    },
+    {
+      "id": "counselor-default-visit-58",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-12-12",
+      "plannedSessions": [
+        19,
+        20
+      ],
+      "outcome": "planned",
+      "sourceRow": 58
+    },
+    {
+      "id": "counselor-default-visit-59",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-12-13",
+      "plannedSessions": [
+        27,
+        28
+      ],
+      "outcome": "planned",
+      "sourceRow": 59
+    },
+    {
+      "id": "counselor-default-visit-60",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-12-13",
+      "plannedSessions": [
+        25,
+        26
+      ],
+      "outcome": "planned",
+      "sourceRow": 60
+    },
+    {
+      "id": "counselor-default-visit-61",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-12-13",
+      "plannedSessions": [
+        21,
+        22
+      ],
+      "outcome": "planned",
+      "sourceRow": 61
+    },
+    {
+      "id": "counselor-default-visit-62",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-14",
+      "plannedSessions": [
+        25,
+        26
+      ],
+      "outcome": "planned",
+      "sourceRow": 62
+    },
+    {
+      "id": "counselor-default-visit-63",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-15",
+      "plannedSessions": [
+        27,
+        28
+      ],
+      "outcome": "planned",
+      "sourceRow": 63
+    },
+    {
+      "id": "counselor-default-visit-64",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-16",
+      "plannedSessions": [
+        27,
+        28
+      ],
+      "outcome": "planned",
+      "sourceRow": 64
+    },
+    {
+      "id": "counselor-default-visit-65",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-17",
+      "plannedSessions": [
+        29,
+        30
+      ],
+      "outcome": "planned",
+      "sourceRow": 65
+    },
+    {
+      "id": "counselor-default-visit-66",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-12-18",
+      "plannedSessions": [
+        29,
+        30
+      ],
+      "outcome": "planned",
+      "sourceRow": 66
+    },
+    {
+      "id": "counselor-default-visit-67",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-12-18",
+      "plannedSessions": [
+        27,
+        28
+      ],
+      "outcome": "planned",
+      "sourceRow": 67
+    },
+    {
+      "id": "counselor-default-visit-68",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-12-18",
+      "plannedSessions": [
+        23,
+        24
+      ],
+      "outcome": "planned",
+      "sourceRow": 68
+    },
+    {
+      "id": "counselor-default-visit-69",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-19",
+      "plannedSessions": [
+        29,
+        30
+      ],
+      "outcome": "planned",
+      "sourceRow": 69
+    },
+    {
+      "id": "counselor-default-visit-70",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-19",
+      "plannedSessions": [
+        31,
+        32
+      ],
+      "outcome": "planned",
+      "sourceRow": 70
+    },
+    {
+      "id": "counselor-default-visit-71",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2026-12-20",
+      "plannedSessions": [
+        31,
+        32
+      ],
+      "outcome": "planned",
+      "sourceRow": 71
+    },
+    {
+      "id": "counselor-default-visit-72",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2026-12-20",
+      "plannedSessions": [
+        29,
+        30
+      ],
+      "outcome": "planned",
+      "sourceRow": 72
+    },
+    {
+      "id": "counselor-default-visit-73",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2026-12-20",
+      "plannedSessions": [
+        27,
+        28
+      ],
+      "outcome": "planned",
+      "sourceRow": 73
+    },
+    {
+      "id": "counselor-default-visit-74",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-21",
+      "plannedSessions": [
+        31,
+        32
+      ],
+      "outcome": "planned",
+      "sourceRow": 74
+    },
+    {
+      "id": "counselor-default-visit-75",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-22",
+      "plannedSessions": [
+        33,
+        34
+      ],
+      "outcome": "planned",
+      "sourceRow": 75
+    },
+    {
+      "id": "counselor-default-visit-76",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-29",
+      "plannedSessions": [
+        33,
+        34
+      ],
+      "outcome": "planned",
+      "sourceRow": 76
+    },
+    {
+      "id": "counselor-default-visit-77",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2026-12-30",
+      "plannedSessions": [
+        35,
+        36
+      ],
+      "outcome": "planned",
+      "sourceRow": 77
+    },
+    {
+      "id": "counselor-default-visit-78",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2026-12-31",
+      "plannedSessions": [
+        35,
+        36
+      ],
+      "outcome": "planned",
+      "sourceRow": 78
+    },
+    {
+      "id": "counselor-default-visit-79",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-01",
+      "plannedSessions": [
+        33,
+        34
+      ],
+      "outcome": "planned",
+      "sourceRow": 79
+    },
+    {
+      "id": "counselor-default-visit-80",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-02",
+      "plannedSessions": [
+        31,
+        32
+      ],
+      "outcome": "planned",
+      "sourceRow": 80
+    },
+    {
+      "id": "counselor-default-visit-81",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-02",
+      "plannedSessions": [
+        29,
+        30
+      ],
+      "outcome": "planned",
+      "sourceRow": 81
+    },
+    {
+      "id": "counselor-default-visit-82",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-03",
+      "plannedSessions": [
+        35,
+        36
+      ],
+      "outcome": "planned",
+      "sourceRow": 82
+    },
+    {
+      "id": "counselor-default-visit-83",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-03",
+      "plannedSessions": [
+        33,
+        34
+      ],
+      "outcome": "planned",
+      "sourceRow": 83
+    },
+    {
+      "id": "counselor-default-visit-84",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-03",
+      "plannedSessions": [
+        31,
+        32
+      ],
+      "outcome": "planned",
+      "sourceRow": 84
+    },
+    {
+      "id": "counselor-default-visit-85",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-04",
+      "plannedSessions": [
+        37,
+        38
+      ],
+      "outcome": "planned",
+      "sourceRow": 85
+    },
+    {
+      "id": "counselor-default-visit-86",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-01-05",
+      "plannedSessions": [
+        37,
+        38
+      ],
+      "outcome": "planned",
+      "sourceRow": 86
+    },
+    {
+      "id": "counselor-default-visit-87",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-06",
+      "plannedSessions": [
+        39,
+        40
+      ],
+      "outcome": "planned",
+      "sourceRow": 87
+    },
+    {
+      "id": "counselor-default-visit-88",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-08",
+      "plannedSessions": [
+        37,
+        38
+      ],
+      "outcome": "planned",
+      "sourceRow": 88
+    },
+    {
+      "id": "counselor-default-visit-89",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-09",
+      "plannedSessions": [
+        36,
+        37
+      ],
+      "outcome": "planned",
+      "sourceRow": 89
+    },
+    {
+      "id": "counselor-default-visit-90",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-09",
+      "plannedSessions": [
+        33,
+        34
+      ],
+      "outcome": "planned",
+      "sourceRow": 90
+    },
+    {
+      "id": "counselor-default-visit-91",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-10",
+      "plannedSessions": [
+        39,
+        40
+      ],
+      "outcome": "planned",
+      "sourceRow": 91
+    },
+    {
+      "id": "counselor-default-visit-92",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-10",
+      "plannedSessions": [
+        38,
+        39
+      ],
+      "outcome": "planned",
+      "sourceRow": 92
+    },
+    {
+      "id": "counselor-default-visit-93",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-10",
+      "plannedSessions": [
+        35,
+        36
+      ],
+      "outcome": "planned",
+      "sourceRow": 93
+    },
+    {
+      "id": "counselor-default-visit-94",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-11",
+      "plannedSessions": [
+        41,
+        42
+      ],
+      "outcome": "planned",
+      "sourceRow": 94
+    },
+    {
+      "id": "counselor-default-visit-95",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-01-12",
+      "plannedSessions": [
+        39,
+        40
+      ],
+      "outcome": "planned",
+      "sourceRow": 95
+    },
+    {
+      "id": "counselor-default-visit-96",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-13",
+      "plannedSessions": [
+        43,
+        44
+      ],
+      "outcome": "planned",
+      "sourceRow": 96
+    },
+    {
+      "id": "counselor-default-visit-97",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-01-14",
+      "plannedSessions": [
+        41,
+        42
+      ],
+      "outcome": "planned",
+      "sourceRow": 97
+    },
+    {
+      "id": "counselor-default-visit-98",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-14",
+      "plannedSessions": [
+        41,
+        42
+      ],
+      "outcome": "planned",
+      "sourceRow": 98
+    },
+    {
+      "id": "counselor-default-visit-99",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-14",
+      "plannedSessions": [
+        41,
+        42
+      ],
+      "outcome": "planned",
+      "sourceRow": 99
+    },
+    {
+      "id": "counselor-default-visit-100",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-15",
+      "plannedSessions": [
+        43,
+        44
+      ],
+      "outcome": "planned",
+      "sourceRow": 100
+    },
+    {
+      "id": "counselor-default-visit-101",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-16",
+      "plannedSessions": [
+        43,
+        44
+      ],
+      "outcome": "planned",
+      "sourceRow": 101
+    },
+    {
+      "id": "counselor-default-visit-102",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-16",
+      "plannedSessions": [
+        37,
+        38
+      ],
+      "outcome": "planned",
+      "sourceRow": 102
+    },
+    {
+      "id": "counselor-default-visit-103",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-17",
+      "plannedSessions": [
+        45,
+        46
+      ],
+      "outcome": "planned",
+      "sourceRow": 103
+    },
+    {
+      "id": "counselor-default-visit-104",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-17",
+      "plannedSessions": [
+        45,
+        46
+      ],
+      "outcome": "planned",
+      "sourceRow": 104
+    },
+    {
+      "id": "counselor-default-visit-105",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-17",
+      "plannedSessions": [
+        39,
+        40
+      ],
+      "outcome": "planned",
+      "sourceRow": 105
+    },
+    {
+      "id": "counselor-default-visit-106",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-18",
+      "plannedSessions": [
+        45,
+        46
+      ],
+      "outcome": "planned",
+      "sourceRow": 106
+    },
+    {
+      "id": "counselor-default-visit-107",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-01-19",
+      "plannedSessions": [
+        43,
+        44
+      ],
+      "outcome": "planned",
+      "sourceRow": 107
+    },
+    {
+      "id": "counselor-default-visit-108",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-20",
+      "plannedSessions": [
+        47,
+        48
+      ],
+      "outcome": "planned",
+      "sourceRow": 108
+    },
+    {
+      "id": "counselor-default-visit-109",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-01-21",
+      "plannedSessions": [
+        45,
+        46
+      ],
+      "outcome": "planned",
+      "sourceRow": 109
+    },
+    {
+      "id": "counselor-default-visit-110",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-22",
+      "plannedSessions": [
+        47,
+        48
+      ],
+      "outcome": "planned",
+      "sourceRow": 110
+    },
+    {
+      "id": "counselor-default-visit-111",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-23",
+      "plannedSessions": [
+        47,
+        48
+      ],
+      "outcome": "planned",
+      "sourceRow": 111
+    },
+    {
+      "id": "counselor-default-visit-112",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-23",
+      "plannedSessions": [
+        41,
+        42
+      ],
+      "outcome": "planned",
+      "sourceRow": 112
+    },
+    {
+      "id": "counselor-default-visit-113",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-24",
+      "plannedSessions": [
+        49,
+        50
+      ],
+      "outcome": "planned",
+      "sourceRow": 113
+    },
+    {
+      "id": "counselor-default-visit-114",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-24",
+      "plannedSessions": [
+        49,
+        50
+      ],
+      "outcome": "planned",
+      "sourceRow": 114
+    },
+    {
+      "id": "counselor-default-visit-115",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-24",
+      "plannedSessions": [
+        43,
+        44
+      ],
+      "outcome": "planned",
+      "sourceRow": 115
+    },
+    {
+      "id": "counselor-default-visit-116",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-25",
+      "plannedSessions": [
+        49,
+        50
+      ],
+      "outcome": "planned",
+      "sourceRow": 116
+    },
+    {
+      "id": "counselor-default-visit-117",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-26",
+      "plannedSessions": [
+        51,
+        52
+      ],
+      "outcome": "planned",
+      "sourceRow": 117
+    },
+    {
+      "id": "counselor-default-visit-118",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-26",
+      "plannedSessions": [
+        51,
+        52
+      ],
+      "outcome": "planned",
+      "sourceRow": 118
+    },
+    {
+      "id": "counselor-default-visit-119",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-26",
+      "plannedSessions": [
+        45,
+        46
+      ],
+      "outcome": "planned",
+      "sourceRow": 119
+    },
+    {
+      "id": "counselor-default-visit-120",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-01-27",
+      "plannedSessions": [
+        41,
+        52
+      ],
+      "outcome": "planned",
+      "sourceRow": 120
+    },
+    {
+      "id": "counselor-default-visit-121",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-01-28",
+      "plannedSessions": [
+        47,
+        48
+      ],
+      "outcome": "planned",
+      "sourceRow": 121
+    },
+    {
+      "id": "counselor-default-visit-122",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-29",
+      "plannedSessions": [
+        53,
+        54
+      ],
+      "outcome": "planned",
+      "sourceRow": 122
+    },
+    {
+      "id": "counselor-default-visit-123",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-30",
+      "plannedSessions": [
+        53,
+        54
+      ],
+      "outcome": "planned",
+      "sourceRow": 123
+    },
+    {
+      "id": "counselor-default-visit-124",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-30",
+      "plannedSessions": [
+        47,
+        48
+      ],
+      "outcome": "planned",
+      "sourceRow": 124
+    },
+    {
+      "id": "counselor-default-visit-125",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-01-31",
+      "plannedSessions": [
+        55,
+        56
+      ],
+      "outcome": "planned",
+      "sourceRow": 125
+    },
+    {
+      "id": "counselor-default-visit-126",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-01-31",
+      "plannedSessions": [
+        55,
+        56
+      ],
+      "outcome": "planned",
+      "sourceRow": 126
+    },
+    {
+      "id": "counselor-default-visit-127",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-01-31",
+      "plannedSessions": [
+        49,
+        50
+      ],
+      "outcome": "planned",
+      "sourceRow": 127
+    },
+    {
+      "id": "counselor-default-visit-128",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-02-01",
+      "plannedSessions": [
+        53,
+        54
+      ],
+      "outcome": "planned",
+      "sourceRow": 128
+    },
+    {
+      "id": "counselor-default-visit-129",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-02-02",
+      "plannedSessions": [
+        49,
+        50
+      ],
+      "outcome": "planned",
+      "sourceRow": 129
+    },
+    {
+      "id": "counselor-default-visit-130",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-02-03",
+      "plannedSessions": [
+        55,
+        56
+      ],
+      "outcome": "planned",
+      "sourceRow": 130
+    },
+    {
+      "id": "counselor-default-visit-131",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-02-04",
+      "plannedSessions": [
+        51,
+        52
+      ],
+      "outcome": "planned",
+      "sourceRow": 131
+    },
+    {
+      "id": "counselor-default-visit-132",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-02-05",
+      "plannedSessions": [
+        57,
+        58
+      ],
+      "outcome": "planned",
+      "sourceRow": 132
+    },
+    {
+      "id": "counselor-default-visit-133",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-02-06",
+      "plannedSessions": [
+        57,
+        58
+      ],
+      "outcome": "planned",
+      "sourceRow": 133
+    },
+    {
+      "id": "counselor-default-visit-134",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-02-06",
+      "plannedSessions": [
+        51,
+        52
+      ],
+      "outcome": "planned",
+      "sourceRow": 134
+    },
+    {
+      "id": "counselor-default-visit-135",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-02-07",
+      "plannedSessions": [
+        59,
+        60
+      ],
+      "outcome": "planned",
+      "sourceRow": 135
+    },
+    {
+      "id": "counselor-default-visit-136",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-02-07",
+      "plannedSessions": [
+        59,
+        60
+      ],
+      "outcome": "planned",
+      "sourceRow": 136
+    },
+    {
+      "id": "counselor-default-visit-137",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-02-07",
+      "plannedSessions": [
+        53,
+        54
+      ],
+      "outcome": "planned",
+      "sourceRow": 137
+    },
+    {
+      "id": "counselor-default-visit-138",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-02-08",
+      "plannedSessions": [
+        57,
+        58
+      ],
+      "outcome": "planned",
+      "sourceRow": 138
+    },
+    {
+      "id": "counselor-default-visit-139",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-02-09",
+      "plannedSessions": [
+        53,
+        54
+      ],
+      "outcome": "planned",
+      "sourceRow": 139
+    },
+    {
+      "id": "counselor-default-visit-140",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-02-10",
+      "plannedSessions": [
+        59,
+        60
+      ],
+      "outcome": "planned",
+      "sourceRow": 140
+    },
+    {
+      "id": "counselor-default-visit-141",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-02-11",
+      "plannedSessions": [
+        55,
+        56
+      ],
+      "outcome": "planned",
+      "sourceRow": 141
+    },
+    {
+      "id": "counselor-default-visit-142",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H3",
+      "date": "2027-02-12",
+      "plannedSessions": [
+        61,
+        62
+      ],
+      "outcome": "planned",
+      "sourceRow": 142
+    },
+    {
+      "id": "counselor-default-visit-143",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H4",
+      "date": "2027-02-13",
+      "plannedSessions": [
+        61,
+        62
+      ],
+      "outcome": "planned",
+      "sourceRow": 143
+    },
+    {
+      "id": "counselor-default-visit-144",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H5",
+      "date": "2027-02-13",
+      "plannedSessions": [
+        55,
+        56
+      ],
+      "outcome": "planned",
+      "sourceRow": 144
+    },
+    {
+      "id": "counselor-default-visit-145",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H1",
+      "date": "2027-02-14",
+      "plannedSessions": [
+        61,
+        62
+      ],
+      "outcome": "planned",
+      "sourceRow": 145
+    },
+    {
+      "id": "counselor-default-visit-146",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-02-14",
+      "plannedSessions": [
+        55,
+        56
+      ],
+      "outcome": "planned",
+      "sourceRow": 146
+    },
+    {
+      "id": "counselor-default-visit-147",
+      "counselorId": "counselor-default",
+      "hostelId": "counselor-default-H2",
+      "date": "2027-02-14",
+      "plannedSessions": [
+        63,
+        64
+      ],
+      "outcome": "planned",
+      "sourceRow": 147
+    }
+  ],
+  "fixes": [
+    {
+      "sourceRow": 12,
+      "field": "date",
+      "original": "04.11.2027",
+      "proposed": "2026-11-04",
+      "reason": "Year normalized using stated weekday wednesday."
+    },
+    {
+      "sourceRow": 15,
+      "field": "hostel code",
+      "original": "H3",
+      "proposed": "H2",
+      "reason": "Hostel name is the source of truth."
+    },
+    {
+      "sourceRow": 21,
+      "field": "sessions",
+      "original": ",11,12",
+      "proposed": "[11,12]",
+      "reason": "Removed stray leading comma."
+    },
+    {
+      "sourceRow": 116,
+      "field": "date",
+      "original": "25.01.2026",
+      "proposed": "2027-01-25",
+      "reason": "Year normalized using stated weekday monday."
+    },
+    {
+      "sourceRow": 117,
+      "field": "date",
+      "original": "26.01.2026",
+      "proposed": "2027-01-26",
+      "reason": "Year normalized using stated weekday tuesday."
+    },
+    {
+      "sourceRow": 120,
+      "field": "date",
+      "original": "27.01.2026",
+      "proposed": "2027-01-27",
+      "reason": "Year normalized using stated weekday wednesday."
+    },
+    {
+      "sourceRow": 121,
+      "field": "date",
+      "original": "28.01.2026",
+      "proposed": "2027-01-28",
+      "reason": "Year normalized using stated weekday thursday."
+    },
+    {
+      "sourceRow": 122,
+      "field": "date",
+      "original": "29.01.2026",
+      "proposed": "2027-01-29",
+      "reason": "Year normalized using stated weekday friday."
+    },
+    {
+      "sourceRow": 147,
+      "field": "hostel code",
+      "original": "H3",
+      "proposed": "H2",
+      "reason": "Hostel name is the source of truth."
+    }
+  ],
+  "flags": [
+    {
+      "sourceRow": 120,
+      "field": "sessions",
+      "original": "41,52",
+      "proposed": "[51,52]",
+      "reason": "Likely typo; requires user confirmation."
+    },
+    {
+      "sourceRow": 0,
+      "field": "session sequence",
+      "original": "H4: 33,34 -> 36,37 -> 38,39",
+      "proposed": "Session 35 missing",
+      "reason": "Sequence gap requires user review."
+    },
+    {
+      "sourceRow": 0,
+      "field": "header",
+      "original": "32 total sessions",
+      "proposed": "64 numbered sessions",
+      "reason": "Session numbering is authoritative; confirm discrepancy."
+    }
+  ]
 }
